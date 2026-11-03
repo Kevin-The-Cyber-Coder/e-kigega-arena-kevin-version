@@ -32,7 +32,7 @@ app.use('/api', require('./routes/users'));
 // A small index of the API, useful when testing in Postman.
 app.get(['/', '/api'], (req, res) => {
   res.json({
-    name: 'E-Kigega Arena Inventory API',
+    name: 'Inventory Management System',
     status: 'running',
     roles: ['super_admin', 'admin', 'manager', 'staff'],
     shifts: ['day', 'night'],
